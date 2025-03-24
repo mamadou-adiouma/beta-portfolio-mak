@@ -1,0 +1,9 @@
+footer {
+     text-align: center;
+     padding: 0.5rem;
+}
+
+footer p {
+     font-size: var(--small-fsz);
+     color: var(--light-grey);
+}
