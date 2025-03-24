@@ -10,15 +10,15 @@ document.addEventListener('DOMContentLoaded', () => {
           parentHTML.dataset.theme = 'light'
      }
 
-     const popUp = () => {
-          setTimeout(() => {
-               document.querySelector('.mssg').style.display = 'grid';
-          }, 2000);
-     }
+     // const popUp = () => {
+     //      setTimeout(() => {
+     //           document.querySelector('.mssg').style.display = 'grid';
+     //      }, 2000);
+     // }
 
-     setTimeout(() => {
-          document.querySelector('.mssg').style.display = 'none';
-     }, 10000);
+     // setTimeout(() => {
+     //      document.querySelector('.mssg').style.display = 'none';
+     // }, 10000);
 
-     window.addEventListener('DOMContentLoaded', popUp)
+     // window.addEventListener('DOMContentLoaded', popUp)
 })
